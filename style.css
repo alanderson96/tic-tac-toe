@@ -1,0 +1,51 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  width: 320px;
+  height: 300px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+.square {
+  height: 90px;
+  width: 90px;
+  font-size: 60px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.win-message {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.control-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reset-button {
+  width: 250px;
+  height: 50px;
+  font-size: 40px;
+  background: #3b4fd7;
+  color: white;
+  font-family: "Lucida Console", Courier, monospace;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: white;
+  color: #3b4fd7;
+}
